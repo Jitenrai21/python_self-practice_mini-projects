@@ -8,7 +8,7 @@ def restart_time():
     os.system('shutdown /r /t 20')
 
 def sleep():
-    os.system("shutdwon -l")
+    os.system("shutdown -l")
 
 def shutdown():
     os.system("shutdown /s /t 1")
